@@ -21,8 +21,8 @@ gsap.from(".gallery *", {
     y:100,
     scrollTrigger: {
         trigger: ".gallery",
-        start: "top 30%",
-        end: "bottom 10%",
+        start: "top center",
+        end: "bottom center",
         toggleActions: "play reverse play reverse",
     },
     stagger: .1,
@@ -34,8 +34,8 @@ gsap.from(".roof *", {
     y:100,
     scrollTrigger: {
         trigger: ".roof",
-        start: "top 30%",
-        end: "bottom 10%",
+        start: "top center",
+        end: "bottom center",
         toggleActions: "play reverse play reverse",
     },
     stagger: .1,
@@ -47,8 +47,8 @@ gsap.from(".ecotek *", {
     y:100,
     scrollTrigger: {
         trigger: ".ecotek",
-        start: "top 30%",
-        end: "bottom 10%",
+        start: "top center",
+        end: "bottom center",
 
         toggleActions: "play reverse play reverse",
     },
@@ -61,8 +61,8 @@ gsap.from(".test *", {
     y:100,
     scrollTrigger: {
         trigger: ".test",
-        start: "top 30%",
-        end: "bottom 10%",
+        start: "top center",
+        end: "bottom center",
         toggleActions: "play reverse play reverse",
     },
     stagger: .05,
@@ -74,8 +74,9 @@ gsap.from(".blog *", {
     y:100,
     scrollTrigger: {
         trigger: ".blog",
-        start: "top 30%",
-        end: "bottom 10%",
+        start: "top center",
+        end: "bottom center",
+        markers: true,
         toggleActions: "play reverse play reverse",
     },
     stagger: .05,
@@ -115,7 +116,7 @@ gsap.from(".certificate *", {
         trigger: ".test",
         start: "bottom 60%",
         end: "bottom 10% ",
-        markers: true,
+        
         toggleActions: "play reverse play reverse",
     },
     stagger: .05,
