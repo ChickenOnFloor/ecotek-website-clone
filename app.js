@@ -1,5 +1,23 @@
 gsap.registerPlugin(ScrollTrigger);
 
+
+const btns = document.querySelectorAll('.contact')
+btns.forEach(element => {
+    const animation = gsap.to(element, {
+        backgroundColor: "rgb(61, 61, 61)",
+        color: "#ffff",
+        duration: .5,
+        paused: true
+    })
+
+    element.addEventListener('mouseenter', () => {
+        animation.play();
+      });
+      element.addEventListener('mouseleave', () => {
+        animation.reverse();
+      });
+});
+
 gsap.from('.main', {
     y: 100,
     opacity: 0,
@@ -76,7 +94,6 @@ gsap.from(".blog *", {
         trigger: ".blog",
         start: "top center",
         end: "bottom center",
-        markers: true,
         toggleActions: "play reverse play reverse",
     },
     stagger: .05,
