@@ -112,9 +112,10 @@ gsap.from(".certificate *", {
     opacity: 0,
     y:100,
     scrollTrigger: {
-        trigger: ".certificate",
-        start: "top 30%",
-        end: "bottom 10%",
+        trigger: ".test",
+        start: "bottom 60%",
+        end: "bottom 10% ",
+        markers: true,
         toggleActions: "play reverse play reverse",
     },
     stagger: .05,
