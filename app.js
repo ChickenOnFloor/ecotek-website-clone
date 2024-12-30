@@ -42,13 +42,14 @@ gsap.from(".roof *", {
 })
 
 gsap.from(".ecotek *", {
-    duration: .1,
+    duration: .5,
     opacity: 0,
     y:100,
     scrollTrigger: {
         trigger: ".ecotek",
         start: "top center",
         end: "bottom center",
+
         toggleActions: "play reverse play reverse",
     },
     stagger: .1,
@@ -112,8 +113,9 @@ gsap.from(".certificate *", {
     y:100,
     scrollTrigger: {
         trigger: ".certificate",
-        start: "top center",
-        end: "bottom center",
+        start: "top 30%",
+        end: "bottom 10%",
+        markers: true,
         toggleActions: "play reverse play reverse",
     },
     stagger: .05,
