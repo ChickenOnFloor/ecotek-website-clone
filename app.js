@@ -86,7 +86,7 @@ gsap.from(".misc *", {
     y:100,
     scrollTrigger: {
         trigger: ".misc",
-        start: "top center",
+        start: "top 80%",
         end: "bottom center",
         toggleActions: "play reverse play reverse",
     },
@@ -99,7 +99,7 @@ gsap.from(".f-con2 div", {
     y:100,
     scrollTrigger: {
         trigger: ".footer",
-        start: "top center",
+        start: "top 90%",
         end: "bottom center",
         toggleActions: "play reverse play reverse",
     },
