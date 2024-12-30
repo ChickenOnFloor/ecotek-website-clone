@@ -115,7 +115,6 @@ gsap.from(".certificate *", {
         trigger: ".certificate",
         start: "top 30%",
         end: "bottom 10%",
-        markers: true,
         toggleActions: "play reverse play reverse",
     },
     stagger: .05,
