@@ -6,8 +6,6 @@
 
 ![Preview Screenshot](screenshot.png)
 
-> Add a screenshot of your project and save it as `screenshot.png` in the root folder.
-
 ---
 
 ## 🛠️ Tech Stack
@@ -29,3 +27,20 @@
 
 ---
 
+## 📁 Project Structure
+📦 ecotek-clone/
+┣ 📂 assets/ (images, fonts, etc.)
+┣ 📄 index.html
+┣ 📄 style.css
+┣ 📄 script.js
+┣ 📄 screenshot.png
+┣ 📄 readme.md
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone this repo
+```bash
+git clone https://github.com/ChickenOnFloor/ecotek-website-clone.git
+cd ecotek-website-clone
