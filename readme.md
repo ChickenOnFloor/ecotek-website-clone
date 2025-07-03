@@ -8,6 +8,10 @@
 
 ---
 
+## 🔗 Live Demo
+
+👉 [Live Preview](https://ecotek-clone.netlify.app)
+
 ## 🛠️ Tech Stack
 
 - **HTML5** – Markup structure  
